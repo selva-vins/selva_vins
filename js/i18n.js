@@ -14,8 +14,8 @@ window.SV_I18N = (function () {
       'selva.caption': 'Selva, con la Serra de Tramuntana detrás.',
       'selva.aside': 'Entre el llano de Inca y la montaña, en la carretera que sube a Lluc.',
       'family.label': 'La familia',
-      'family.title': 'Veinte años en las viñas de otros. Después, la suya.',
-      'family.body': 'Carlos Rodríguez Furthmann pasó unos veinte años trabajando viñas y bodegas de la isla para otros. Selva Vins es donde por fin hace el vino a su manera: con total libertad, tocándolo lo menos posible, para que cada vino sea más auténtico y más él mismo.',
+      'family.title': 'Veintiún años en las viñas de otros. Después, la suya.',
+      'family.body': 'Carlos Rodríguez Furthmann pasó unos veinte años trabajando viñas y bodegas de la isla para otros. Selva Vins es donde por fin hace el vino a su manera: con total libertad para dejar que las uvas hablen.',
       'family.carlos': 'El alma de Selva Vins. Viña, bodega, papeles y repartos.',
       'family.barbara': 'La mano derecha de Carlos. Sin su ayuda y su apoyo incondicional, Selva Vins no existiría.',
       'family.hada': 'Ayuda en todo lo que hay que hacer en la bodega y, desde hace unos años, elabora aquí sus propios vinos. El presente y el futuro de Selva Vins.',
@@ -64,7 +64,7 @@ window.SV_I18N = (function () {
       'cast.lede': 'Las uvas propias de Mallorca. Algunas las conoce todo el mundo; otras casi nadie las cultiva.',
       'visit.label': 'Visítanos',
       'visit.sub': 'Bébelo donde se hace.',
-      'visit.body': 'La sala de vinos de la bodega, en Selva: vino natural por copas o por botellas, pa amb oli y helado artesano. Para las catas, mejor reservar, así hay tiempo para preguntas. También puedes quedarte a dormir.',
+      'visit.body': 'La sala de vinos de la bodega, en Selva: vino natural por copas o por botellas, pa amb oli y helado artesano. Para las catas, mejor reservar, así hay tiempo para preguntas.',
       'visit.pa': 'Pa amb oli de tres maneras: <em>Tramuntana</em>, <em>Mayurqa</em> y <em>Myotragus</em>.',
       'visit.directions': 'Cómo llegar',
       'map.serra': 'Serra de Tramuntana', 'map.raiger': 'Es Raiger', 'map.palma': 'Palma, a unos 35 km',
@@ -94,8 +94,8 @@ window.SV_I18N = (function () {
       'selva.caption': 'Selva, amb la Serra de Tramuntana al darrere.',
       'selva.aside': 'Entre el pla d’Inca i la muntanya, a la carretera que puja a Lluc.',
       'family.label': 'La família',
-      'family.title': 'Vint anys a les vinyes dels altres. Després, la seva.',
-      'family.body': 'En Carlos Rodríguez Furthmann va passar uns vint anys treballant vinyes i cellers de l’illa per a altres. Selva Vins és on per fi fa el vi a la seva manera: amb total llibertat, tocant-lo tan poc com pot, perquè cada vi sigui més autèntic i més ell mateix.',
+      'family.title': 'Vint-i-un anys a les vinyes dels altres. Després, la seva.',
+      'family.body': 'En Carlos Rodríguez Furthmann va passar uns vint anys treballant vinyes i cellers de l’illa per a altres. Selva Vins és on per fi fa el vi a la seva manera: amb llibertat total perquè els raïms parlin.',
       'family.carlos': 'L’ànima de Selva Vins. Vinya, celler, papers i repartiment.',
       'family.barbara': 'La mà dreta d’en Carlos. Sense la seva ajuda i el seu suport incondicional, Selva Vins no existiria.',
       'family.hada': 'Ajuda en tot el que cal fer al celler i, des de fa uns anys, hi elabora els seus propis vins. El present i el futur de Selva Vins.',
@@ -144,7 +144,7 @@ window.SV_I18N = (function () {
       'cast.lede': 'Els raïms propis de Mallorca. Alguns els coneix tothom; d’altres, gairebé ningú no els conrea.',
       'visit.label': 'Visita’ns',
       'visit.sub': 'Beu-lo on es fa.',
-      'visit.body': 'La sala de vins del celler, a Selva: vi natural per copes o per ampolles, pa amb oli i gelat artesà. Per als tasts, millor reservar, així hi ha temps per a preguntes. També t’hi pots quedar a dormir.',
+      'visit.body': 'La sala de vins del celler, a Selva: vi natural per copes o per ampolles, pa amb oli i gelat artesà. Per als tasts, millor reservar, així hi ha temps per a preguntes.',
       'visit.pa': 'Pa amb oli de tres maneres: <em>Tramuntana</em>, <em>Mayurqa</em> i <em>Myotragus</em>.',
       'visit.directions': 'Com arribar-hi',
       'map.serra': 'Serra de Tramuntana', 'map.raiger': 'Es Raiger', 'map.palma': 'Palma, a uns 35 km',
@@ -165,14 +165,13 @@ window.SV_I18N = (function () {
     }
   };
 
-  /* Strings the scripts build themselves */
   const ui = {
     en: { grape: 'Grape', style: 'Style', abv: 'Alcohol', bottles: 'Bottles',
           cols: { suspects: 'The Usual Suspects', remi: 'Remi', hada: 'Hada’s wines' },
           see: 'See the wine', soldOut: 'Sold out', status: 'Status', askNext: 'Ask about the next bottling', ask: 'Ask for a bottle',
           contact: {
             general: { kicker: 'Selva Vins', title: 'Write to us.', lede: 'Email or Instagram, whichever you prefer. Questions, visits, tastings, all welcome.' },
-            order: { kicker: 'Order wine', title: 'Ordering is a conversation.', lede: 'There’s no shop here. Write to us by email or on Instagram, tell us what you’d like, and we’ll tell you what’s in the cellar.' },
+            order: { kicker: 'Order wine', title: 'Ordering is a conversation.', lede: 'There’s no shop here. Write to us by email or on Instagram, tell us what you’d like, and we’ll tell you what is available.' },
             wine: { title: 'Ask for a bottle.', lede: 'Write to us about {w} by email or on Instagram, and we’ll tell you what’s left and how to get it.' },
             soldOut: { title: 'This one is gone.', lede: '{w} is sold out. Write to us by email or on Instagram and we’ll let you know when the next bottling is ready.' },
             copied: 'Copied' } },
@@ -181,7 +180,7 @@ window.SV_I18N = (function () {
           see: 'Ver el vino', soldOut: 'Agotado', status: 'Estado', askNext: 'Pregunta por el próximo embotellado', ask: 'Pide una botella',
           contact: {
             general: { kicker: 'Selva Vins', title: 'Escríbenos.', lede: 'Por email o por Instagram, como prefieras. Preguntas, visitas, catas: todo es bienvenido.' },
-            order: { kicker: 'Pedir vino', title: 'Pedir vino es una conversación.', lede: 'Aquí no hay tienda. Escríbenos por email o por Instagram, dinos qué te apetece y te contamos qué hay en la bodega.' },
+            order: { kicker: 'Pedir vino', title: 'Pedir vino es una conversación.', lede: 'Aquí no hay tienda. Escríbenos por email o por Instagram, dinos qué te apetece y te contamos qué hay disponible.' },
             wine: { title: 'Pide una botella.', lede: 'Escríbenos sobre {w} por email o por Instagram y te diremos cuántas quedan y cómo conseguirlas.' },
             soldOut: { title: 'Este ya se acabó.', lede: '{w} está agotado. Escríbenos por email o por Instagram y te avisamos cuando esté listo el próximo embotellado.' },
             copied: 'Copiado' } },
@@ -190,7 +189,7 @@ window.SV_I18N = (function () {
           see: 'Mira el vi', soldOut: 'Exhaurit', status: 'Estat', askNext: 'Pregunta pel proper embotellat', ask: 'Demana una ampolla',
           contact: {
             general: { kicker: 'Selva Vins', title: 'Escriu-nos.', lede: 'Per email o per Instagram, com prefereixis. Preguntes, visites, tasts: tot és benvingut.' },
-            order: { kicker: 'Demana vi', title: 'Demanar vi és una conversa.', lede: 'Aquí no hi ha botiga. Escriu-nos per email o per Instagram, digues-nos què et ve de gust i et contarem què hi ha al celler.' },
+            order: { kicker: 'Demana vi', title: 'Demanar vi és una conversa.', lede: 'Aquí no hi ha botiga. Escriu-nos per email o per Instagram, digues-nos què et ve de gust i t’explicarem què hi ha disponible.' },
             wine: { title: 'Demana una ampolla.', lede: 'Escriu-nos sobre el {w} per email o per Instagram i et direm quantes en queden i com aconseguir-les.' },
             soldOut: { title: 'Aquest ja s’ha acabat.', lede: 'El {w} està exhaurit. Escriu-nos per email o per Instagram i t’avisarem quan estigui llest el proper embotellat.' },
             copied: 'Copiat' } }
@@ -220,7 +219,6 @@ window.SV_I18N = (function () {
     try { localStorage.setItem('sv-lang', next); } catch (e) { /* ignore */ }
   }
 
-  /* pick a field in the current language from {en, es, ca} or a plain string */
   function t(v) { return v && typeof v === 'object' && !Array.isArray(v) ? (v[lang] ?? v.en) : v; }
 
   return {
